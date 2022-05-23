@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<!-- Task 06 -->
+<body> 
+        <center>
+    <div>
+        <h1>Catering Order Form</h1>
+        <div id="a1">
+            <br>
+            <h2>Catering Order Form</h2>
+            <label for="">Your Name: </label> <input type="text" placeholder="Your Name"> <br> <br>
+            <label for="">Phone Number: </label> <input type="text" placeholder="Phone Number"> <br> <br>
+            <label for="">Email:</label><input type="email" placeholder="Email"> <br> <br>
+            <label for="">Today's Date: </label> <input type="date" placeholder="Today's Date"> <br> <br>
+            <label for="">Order Due Date: </label> <input type="date" placeholder="Order Due Date"> <br> <br>
+            <label for="">Date of Event:</label> <input type="date" placeholder="Date of Event"> <br> <br>
+            <label for="">Time Of Event: </label> <input type="time" placeholder="Time of Event"> <br> <br>
+            <label>Event Location: </label> <input type="text" placeholder="Event Location "> <br> <br>
+            <label> Type of Event: </label><input type="text" placeholder="Type of Event"> <br> <br>
+            <label for="guests">Number of Guests:</label>
+            <select name="guests" id="guests">
+                <option value="100">100</option>
+                <option value="200">200</option>
+              </select> <br> <br>
+            <label for="guests">Pick Up Time:</label>
+            <select name="" id="Pick Up Time">
+                <option value="8pm">10 pm</option>
+                <option value="8pm">8 pm</option>
+            </select> <br> <br>
+            <h2>Delivery Method</h2> <br>
+            <input type="radio" name="for pick up"><label>For Pick Up</label> <input type="radio"  name="for pick up"><label> For Delivery</label> <br> <br>
+            <button>Submit</button>
+        </div>
+        <div id="b2">
+            <h2>What We Povide You</h2>
+            <p>
+                24x7 Food Service Available <br>
+                Online Food Order Booking <br>
+                Credit and Debit Card Payment Facility <br> 
+            </p>
+        </div>
+    </div>
+    </center>
+    <style>
+        body{
+            background-image: url(https://image.shutterstock.com/image-photo/italian-bruschetta-prosciutto-dried-tomatoes-260nw-1305239086.jpg);
+            background-size: 100%;
+            background-repeat: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color:white;
+            }
+        h1, h2{
+            color: aliceblue;
+        }
+        div#a1{
+            border: 5px solid white;
+            height: 700px;
+            width: 350px;
+        }
+        div#b2{
+            color: aliceblue;
+            display: inline-block;
+            position: absolute;
+            top: 380px;
+            right: 110px;
+        }
+        label{
+            color:aliceblue;
+        }
+        button{
+            height: 40px;
+            width: 100px;
+            background-color: gray;
+            border: 0px;
+            color: white;
+        }
+    
+    </style>
+    
+</body>
+</html>
